@@ -1,0 +1,10 @@
+project_id = "qjynzcomeytmpsopjhdd"
+
+[functions.create-daily-room]
+verify_jwt = true
+
+[functions.create-checkout]
+verify_jwt = true
+
+[functions.confirm-booking]
+verify_jwt = true
