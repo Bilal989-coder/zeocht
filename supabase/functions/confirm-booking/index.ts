@@ -8,7 +8,7 @@ const corsHeaders = {
 
 const logStep = (step: string, details?: any) => {
   const detailsStr = details ? ` - ${JSON.stringify(details)}` : '';
-  console.log(`[CONFIRM-BOOKING] ${step}${detailsStr}`);
+  console.log(`[super-handler] ${step}${detailsStr}`);
 };
 
 serve(async (req) => {

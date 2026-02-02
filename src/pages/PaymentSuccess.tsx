@@ -44,7 +44,7 @@ export default function PaymentSuccess() {
       console.log("Confirming booking and setting up livestream:", bookingId);
       
       // Step 1: Confirm booking and send notifications
-      const { data: confirmData, error: confirmError } = await supabase.functions.invoke("confirm-booking", {
+      const { data: confirmData, error: confirmError } = await supabase.functions.invoke("super-handler", {
         body: { bookingId },
       });
 

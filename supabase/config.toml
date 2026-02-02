@@ -3,8 +3,8 @@ project_id = "qjynzcomeytmpsopjhdd"
 [functions.create-daily-room]
 verify_jwt = true
 
-[functions.create-checkout]
+[functions.create-checkout-session]
 verify_jwt = true
 
-[functions.confirm-booking]
+[functions.super-handler]
 verify_jwt = true
